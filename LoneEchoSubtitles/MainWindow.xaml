@@ -1,0 +1,15 @@
+﻿<Window x:Class="LoneEchoSubtitles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoneEchoSubtitles"
+        mc:Ignorable="d"
+        Title="Lone Echo Subtitles" Height="400" Width="1200"
+		Background="Black">
+	<Grid>
+		<TextBlock x:Name="dialogTextBlock" HorizontalAlignment="Left" Foreground="LightGray" Margin="10,10,10,10" TextWrapping="Wrap" FontSize="50" Text="" VerticalAlignment="Top"/>
+		<TextBlock x:Name="statusTextBlock" HorizontalAlignment="Right" Foreground="OrangeRed" Margin="0,0,64,10" TextWrapping="NoWrap" Text="No new dialog found" VerticalAlignment="Bottom"/>
+		<Button x:Name="browseFiles" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,7" Content="Browse" Background="DarkGray" Click="browseFiles_Click" />
+    </Grid>
+</Window>
